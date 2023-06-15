@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "HotelManagmentSystem.exe"
+			"path" : "program/Program.exe"
 		},
 		{
-			"path" : "HotelManagmentSystem.pdb"
+			"path" : "program/Program.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,11 +14,11 @@
 		"commands" : 
 		[
 			"add_executable",
-			"set_property"
+			"target_include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"program/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -45,25 +45,24 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "E:/Projekty/HotelManagmentSystem/HotelManagmentSystem/program/include"
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					2
-				],
-				"standard" : "20"
-			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "HotelManagmentSystem::@6890427a1f51a3e7e1df",
+	"id" : "Program::@2ccacb0f417df79f0f19",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,12 +82,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "HotelManagmentSystem",
-	"nameOnDisk" : "HotelManagmentSystem.exe",
+	"name" : "Program",
+	"nameOnDisk" : "Program.exe",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "program",
+		"source" : "program"
 	},
 	"sourceGroups" : 
 	[
@@ -98,13 +97,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -112,13 +104,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "HotelManagmentSystem.cpp",
+			"path" : "program/src/HotelManagmentSystem.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "HotelManagmentSystem.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

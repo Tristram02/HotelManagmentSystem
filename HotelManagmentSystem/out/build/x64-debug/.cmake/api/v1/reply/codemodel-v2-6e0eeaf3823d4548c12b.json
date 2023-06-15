@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "program",
+					"jsonFile" : "directory-program-Debug-a5a3a0c50f4bf994ace3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "program",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "library",
+					"jsonFile" : "directory-library-Debug-73c165fbd1f03fdab753.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "library",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HotelManagmentSystem"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Program",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Library",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Library::@25993c7f548492bbc626",
+					"jsonFile" : "target-Library-Debug-d9650e3e879ceb7900b9.json",
+					"name" : "Library",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Program::@2ccacb0f417df79f0f19",
+					"jsonFile" : "target-Program-Debug-56fde16f0dcfc6ac3d6e.json",
+					"name" : "Program",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Projekty/HotelManagmentSystem/HotelManagmentSystem/out/build/x64-debug",
+		"source" : "E:/Projekty/HotelManagmentSystem/HotelManagmentSystem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

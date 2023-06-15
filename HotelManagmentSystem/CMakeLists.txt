@@ -9,13 +9,12 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("HotelManagmentSystem")
+project (HotelManagmentSystem)
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (HotelManagmentSystem "HotelManagmentSystem.cpp" "HotelManagmentSystem.h")
+# add_executable (HotelManagmentSystem "HotelManagmentSystem.cpp" "HotelManagmentSystem.h")
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET HotelManagmentSystem PROPERTY CXX_STANDARD 20)
-endif()
+add_subdirectory(program)
+add_subdirectory(library)
 
 # TODO: Dodaj testy i zainstaluj elementy docelowe w razie potrzeby.

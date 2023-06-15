@@ -1,7 +1,7 @@
 ﻿// HotelManagmentSystem.cpp: definiuje punkt wejścia dla aplikacji.
 //
 
-#include "HotelManagmentSystem.h"
+#include <iostream>
 
 using namespace std;
 
